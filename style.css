@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+.container{
+    width: 1192px;
+    margin: auto;
+    text-align: center;
+}
+h2.title {
+    margin: 20px;
+    text-transform: uppercase;
+    text-shadow: 2px 3px #19ceb5, 3px 3px #b10f0f;
+    font-weight: bolder;
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 4px;
+    border: 1px solid #001fff;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+#result {
+    margin-bottom: 25px;
+    font-style: italic;
+}
+.dice {
+    width: 150px;
+    height: 150px;
+    transition: 2s;
+}
+#play-btn {
+    padding: 10px 20px;
+    margin-top: 25px;
+    background: transparent;
+    font-size: 16px;
+    border-color: blue;
+    outline-color: blue;
+}
+#play-btn:hover{
+    background-color: blue;
+    color: #fff;
+    transition: .4s;
+    cursor: pointer;
+}
